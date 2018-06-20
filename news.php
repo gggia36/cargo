@@ -15,13 +15,6 @@
     <!-- START CONTENT -->
 
 
-    <!-- hr continuous -->
-
-<!--   <div class="container-fluid">
-      <hr class="navbar-hr">
-  </div> -->
-  <!-- hr continuous  end-->
-
 
 <!-- ------login------------- -->
 
