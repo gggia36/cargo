@@ -4,7 +4,7 @@
 <div class="w-100" style="background-color:white;border-bottom: 6px solid #001a95;">
 <div class="container">
     <div class="navbar-frame ">
-       <a class="" href="#">
+       <a class="" href="index.php">
          <img class="navbar-logo" src="assets/images/Logo/Logo_SSquare-2.png">
        </a>    
     </div>
@@ -30,22 +30,22 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto navbar-768">
           <li class="nav-item ">
-            <a class="nav-link active" href="#">เกี่ยวกับเรา</a>
+            <a class="nav-link active" href="about_us.php">เกี่ยวกับเรา</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ข่าวสารและกิจกรรม</a>
+            <a class="nav-link" href="news.php">ข่าวสารและกิจกรรม</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">รายการสินค้า</a>
+            <a class="nav-link" href="list_product.php">รายการสินค้า</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ประวัติการทำรายการ</a>
+            <a class="nav-link" href="history.php">ประวัติการทำรายการ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ข้อมูลส่วนตัว</a>
+            <a class="nav-link" href="profile.php">ข้อมูลส่วนตัว</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ติดต่อเรา</a>
+            <a class="nav-link" href="contact.php">ติดต่อเรา</a>
           </li>
         </ul>
 
