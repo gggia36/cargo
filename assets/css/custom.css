@@ -56,6 +56,26 @@ body {
       background-color: #f0f0f0;
 }
 
+.nc-thumbnail{
+    background-color: #ffffff;
+    box-shadow: 6px 4px 20px #d8d3d3;
+    padding: 30px 60px;
+}
+
+.nc-card-item{
+    background-color: #ffffff;
+    box-shadow: 2px 2px 7px #d8d3d3;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 4px solid #001a95;
+}
+
+.nc-card-info{
+    background-color: #f5f5f5;
+    padding: 20px;
+}
 
 /*------------nav ber---------------*/
 .navbar-light .navbar-nav .nav-link {
@@ -166,6 +186,15 @@ body {
 }
 .footer-text-size{
     font-size: 14px
+}
+.footer-text-size a{
+    color: #ffffff;
+}
+
+.footer-text-size a:hover {
+    color: #007bff;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .footer-icon-3-google{
@@ -339,6 +368,50 @@ body {
 -------------login-page end------------------
 -----------------------------------------*/
 
+/*----------------------------------------
+----------contact-page start--------------
+-----------------------------------------*/
+
+.head-contact{
+    font-weight: bold;
+}
+
+.img-contact{
+    display: block;
+}
+
+.info-contact{
+    padding-left: 30px;
+}
+
+.line-contact{
+    width: 40%;
+}
+
+.contact-in{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.contact-item{
+    display: flex;
+    margin-bottom: 7px;
+}
+
+.text-contact{
+    margin-left: 30px;
+}
+
+/*----------------------------------------
+----------contact-page end----------------
+-----------------------------------------*/
+
+
+.head-history{
+    font-weight: bold;
+    color: #001a95;
+}
+
 
 /*------------All Class End--------*/
 
@@ -347,11 +420,6 @@ body {
 /*------------------------------------*
 $End Structure
 *------------------------------------*/
-
-
-
-
-
 
 
 @media (max-width: 1366px){
@@ -365,6 +433,11 @@ $End Structure
 }
 
 @media (max-width: 1024px){
+
+    .nc-thumbnail{
+        padding: 30px 30px;
+    }
+
     /*---------footer 1024-----------*/
 
         .footer-up{
@@ -394,6 +467,9 @@ $End Structure
 }
 
 @media (max-width: 768px){
+    .nc-thumbnail{
+        padding: 30px 20px;
+    }
  
   /*---------navber 768--------*/
   .navbar-frame {
@@ -455,17 +531,25 @@ $End Structure
 -------------login-page end 768-------
 ------------------------------------*/
 
+/*----------------------------------------
+----------contact-page 768--------------
+-----------------------------------------*/
 
+.img-contact{
+    display: none;
+}
 
-
-
-
+/*----------------------------------------
+----------history-page 768--------------
+-----------------------------------------*/
 
 
 }
 
 @media (max-width: 414px){
-
+    .nc-thumbnail{
+        padding: 30px 15px;
+    }
     /*----------navber 414----------*/
     .navbar-logo {
         position: absolute;
@@ -496,6 +580,18 @@ $End Structure
     /*-----------------------------------
     -------------login-page end 768-------
     ------------------------------------*/
+
+    /*----------------------------------------
+    ----------contact-page 414----------------
+    -----------------------------------------*/
+    .info-contact {
+        padding-left: 0px;
+    }
+    .line-contact{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 
 

@@ -35,10 +35,10 @@
 				<div class="col-lg-2 text-center text-lg-left text-xl-left my-3">
 					<p class="footer-text-2">ศูนย์ช่วยเหลือ</p>
 					<div class="footer-text-size">
-						<p >นโยบายความเป็นส่วนตัว</p>
-						<p>เงี่ยนไขการใช้งาน</p>
-						<p>คำถามที่พบบ่อย</p>
-						<p>วิธีการใช้งาน</p>
+						<a href="help_center.php" ><p>นโยบายความเป็นส่วนตัว</p></a>
+						<a href="help_center.php"><p>เงี่ยนไขการใช้งาน</p></a>
+						<a href="help_center.php"><p>คำถามที่พบบ่อย</p></a>
+						<a href="help_center.php"><p>วิธีการใช้งาน</p></a>
 					</div>
 				</div>
 				
