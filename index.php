@@ -26,7 +26,7 @@
 <!-- ------login------------- -->
 
 <div class="container my-5"> 
-  <div class="row bg-white login-page_boxshadow">
+  <div class="row bg-white as_boxshadow">
       <div class="col-lg-8 ">
           <div class="login-page_frame">
             <img class=" w-100" src="assets/images/Banner/banner-01.jpg" >
@@ -75,42 +75,42 @@
 <!-- ------login end------------- -->
 
 <div class="container my-5">
-    <div class="row bg-white login-page_pad login-page_boxshadow">
+    <div class="row bg-white login-page_pad as_boxshadow">
       <div class="col-lg-12">
         <h2 class="text-center login-page_hade mt-lg-4">ข่าวสารและกิจกรรม</h2>
       </div>
       <div class="col-lg-12">
         <hr class="login-page-hr mb-4">
       </div>
-      <div class="col-lg-4 col-12">
-        <div class="login-page_card">
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="login-page_card login-page_mar_10">
           <div class="login-page_frame-crad">
-            <img class="login-page_card-img-top" src="http://clipart.coolclips.com/480/vectors/tf05136/CoolClips_vc001401.png" alt="Card image cap">
+            <a href="#"><img class="login-page_card-img-top" src="http://clipart.coolclips.com/480/vectors/tf05136/CoolClips_vc001401.png" alt="Card image cap"></a>
           </div>
           <div class="card-body">
-            <h5  class="login-page_fix_text">เมื่อ EMS มาส่งแล้วไม่มีผู้รับ</h5>
+            <a href="#"><h5  class="login-page_fix_text">เมื่อ EMS มาส่งแล้วไม่มีผู้รับ</h5></a>
             <p class="card-text">มีหลักฐานที่เป็นข้อเท็จจริงยืนยันมานานแล้ว ว่าเนื้อหาที่อ่านรู้เรื่องนั้นจะไปกวนสมาธิของคนอ่านให้เขวไปจากส่วนที้เป็น Layout เรานำ Lorem Ipsum มาใช้เพราะความที่มันมีการกระจายของตัวอักษรธรรมดาๆ</p>
           </div>
         </div>
       </div>
-       <div class="col-lg-4 col-12">
-        <div class="login-page_card">
+       <div class="col-lg-4 col-md-6 col-12">
+        <div class="login-page_card login-page_mar_10">
           <div class="login-page_frame-crad">
-            <img class="login-page_card-img-top" src="http://lebanesenow.com/wp-content/uploads/2018/01/moto-delivery.png" alt="Card image cap">
+            <a href="#"><img class="login-page_card-img-top" src="http://lebanesenow.com/wp-content/uploads/2018/01/moto-delivery.png" alt="Card image cap"></a>
           </div>
           <div class="card-body">
-            <h5 class="login-page_fix_text">บริการนำเข้าสินค้าจีน</h5>
+            <a href="#"><h5 class="login-page_fix_text">บริการนำเข้าสินค้าจีน</h5></a>
             <p class="card-text">มีหลักฐานที่เป็นข้อเท็จจริงยืนยันมานานแล้ว ว่าเนื้อหาที่อ่านรู้เรื่องนั้นจะไปกวนสมาธิของคนอ่านให้เขวไปจากส่วนที้เป็น Layout เรานำ Lorem Ipsum มาใช้เพราะความที่มันมีการกระจายของตัวอักษรธรรมดาๆ</p>
           </div>
         </div>
       </div>
-       <div class="col-lg-4 col-12">
-        <div class="login-page_card">
+       <div class="col-lg-4 col-md-6 col-12">
+        <div class="login-page_card login-page_mar_10">
           <div class="login-page_frame-crad">
-            <img class="login-page_card-img-top" src="https://png.pngtree.com/element_origin_min_pic/17/01/04/302b4e0c5d955b0d4d2d156504387bda.jpg" alt="Card image cap">
+            <a href="#"><img class="login-page_card-img-top" src="https://png.pngtree.com/element_origin_min_pic/17/01/04/302b4e0c5d955b0d4d2d156504387bda.jpg" alt="Card image cap"></a>
           </div>
           <div class="card-body">
-            <h5 class="login-page_fix_text">ทช. หนุนดลจิสติกส์ท่าเรือเชียงแสง รับการค้าไทยขนมจัน</h5>
+            <a href="#"><h5 class="login-page_fix_text">ทช. หนุนดลจิสติกส์ท่าเรือเชียงแสง รับการค้าไทยขนมจัน</h5></a>
             <p class="card-text">มีหลักฐานที่เป็นข้อเท็จจริงยืนยันมานานแล้ว ว่าเนื้อหาที่อ่านรู้เรื่องนั้นจะไปกวนสมาธิของคนอ่านให้เขวไปจากส่วนที้เป็น Layout เรานำ Lorem Ipsum มาใช้เพราะความที่มันมีการกระจายของตัวอักษรธรรมดาๆ</p>
           </div>
         </div>

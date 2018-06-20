@@ -1,7 +1,7 @@
 <footer class="footer">
 	<div class="footer-h">
 		<div class="container">
-			<div class="row ">
+			<div class="row pt-3">
 				<div class="col-lg-4">
 					<div class="row ">
 						<div class="col-lg-4 col-md-12 my-3 text-md-center px-0">
