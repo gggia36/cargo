@@ -1,0 +1,544 @@
+/*
+Template CSS :  Cargo;
+Version :       1.0;
+Author :        workbythai;
+*/
+
+
+/*------------------------------------*
+$FONTFACE
+*------------------------------------*/
+
+@font-face {
+    font-family: 'kanitbold';
+    src: url('../fonts/kanit/kanit-bold-webfont.woff2') format('woff2'),
+         url('../fonts/kanit/kanit-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kanitlight';
+    src: url('../fonts/kanit/kanit-light-webfont.woff2') format('woff2'),
+         url('../fonts/kanit/kanit-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kanitmedium';
+    src: url('../fonts/kanit/kanit-medium-webfont.woff2') format('woff2'),
+         url('../fonts/kanit/kanit-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kanitregular';
+    src: url('../fonts/kanit/kanit-regular-webfont.woff2') format('woff2'),
+         url('../fonts/kanit/kanit-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*------------------------------------*
+$Structure
+*------------------------------------*/
+
+body {
+      font-family: 'kanitlight';
+      min-height: 100vh;
+      background-color: #f0f0f0;
+}
+
+
+/*------------nav ber---------------*/
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(2, 26, 149);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+ .navbar-inverse.nav-upper {
+  height: 50px;
+}
+.navbar-inverse.nav-upper ul {
+  float: right;
+  display: table;
+
+}
+.navbar-inverse.nav-upper .navbar-upper > li {
+  display: table-cell;
+  font-size: 14px;
+}
+
+
+.navbar-frame{
+    position: relative;
+    width: 180px;
+    height: 20px;
+}
+
+.navbar-logo {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    z-index: 1051;
+    width: 100%;
+    height: auto;
+}
+
+
+.navbar-hr {
+     border-color: #001a95;
+     border-width: 6px;
+}
+.btn-nar-login{
+    color: #fff;
+    background-color: #021a95;
+    border: 2px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 11px;
+    font-weight: 600;
+}
+.btn-nar-login:hover{
+    color:  #021a95;
+    background-color: #fff;
+    border: 2px solid;
+    transition: 0.5s;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(2, 26, 149);
+    border-color: rgb(2, 26, 149);
+    border-width: 2px;
+    margin-left: auto;
+}
+.nav-pad{
+    padding-right: 10px;
+    padding-left: 20px
+}
+.nav-btn-rep{
+    list-style: none;
+    padding-left: 0px;
+}
+/*-----------nav ber end-------------*/
+
+
+/*------------wrapper---------------*/
+.wrapper {
+    min-height: calc(100vh - 466px);
+}
+/*------------wrapper end------------*/
+
+/*-----------footer------------------*/
+.footer-h{
+   background-color:#45494c;
+    height: auto;
+    color: #f5f5f5; 
+}
+.footer-h-1{
+   background-color:#3e3f41;
+    height: auto;
+    color: #f5f5f5; 
+}
+.footer-img-fram{
+    position: relative;
+    /* overflow: hidden; */
+    width: 100px;
+    height: 20px;
+}
+.footer-img{
+/*    position: absolute;
+    top: 50%;
+    left: 0%;
+    z-index: 1051;*/
+    width: 100%;
+    height: auto;
+}
+.footer-text-size{
+    font-size: 14px
+}
+
+.footer-icon-3-google{
+   background-color: #45494c;
+    color: #ffffff;
+    width: 27px;
+    font-size: 15px;
+    border: 2px solid;
+    height: 27px;
+    padding: 4px 0px 0px 4px;
+}
+
+.footer-mar{
+    margin-top: 30px;
+}
+.footer-text-2{
+    font-size: 20px;
+    font-weight: 600;   
+}
+.footer-t-l{
+    font-size: 30px;
+    font-weight: 900;
+}
+.footer-t{
+    font-size: 25px;
+    font-weight: 800;
+}
+.footer-mt{
+    margin-top: -50px;
+}
+/*-----------footer------------------*/
+
+/*-----------All Class--------------*/
+.bg-blue{
+    background-color: #021a95;
+}
+.bg-white{
+    background-color: white;
+}
+.text-white{
+    color: white;
+}
+
+
+
+
+/*----------------------------------------
+-------------login-page------------------
+-----------------------------------------*/
+.navbar-light .navbar-nav .nav-link.active{
+        border-top: 2px solid #021a95;
+    color: #021a95;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    border-top: 2px solid #021a95;
+    color: #021a95;
+}
+.login-page_h1-login{
+    background-color: #dce6ef;
+
+}
+.login-page_frame{
+     position: relative;
+     overflow: hidden;
+     width: 100%;
+     height: auto;
+}
+
+.input-group-text{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.form-control{
+    border-radius: 0px !important;s
+}
+
+.login-page_dis{
+    display: inline-flex;
+    margin-top: 15px;
+}
+.login-page_link{
+    margin-left: 15px;
+    color: #ef5a24;
+}
+
+
+.login-page-btn-nar-login {
+    color: #fff;
+    background-color: #021a95;
+    border: 2px solid;
+    border-color: #021a95;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: auto;
+}
+.login-page-btn-nar-login:hover{
+    color:  #021a95;
+    background-color: #fff;
+    border: 2px solid;
+    transition: 0.5s;
+}
+.login-page-color{
+    color: black;
+}
+.login-page-hr{
+    border-color: #001a95;
+    border-width: 6px;
+    width: 160px;
+}
+.login-page-bg{
+    background-color: white;
+}
+.login-page-padding{
+    padding: 70px 70px 130px 70px;
+}
+
+.login-page_frame-crad{
+     position: relative;
+     overflow: hidden;
+     width: 100%;
+     height: 250px;
+}
+.login-page_card {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0px;
+}
+.login-page_card-img-top {
+    width: 100%;
+    padding: 20px 20px 3px 20px;
+}
+.login-page_fix_text{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 48px;
+    color: #021a95;
+    font-weight: 600;
+}
+.login-page_font{
+    padding: 50px 0px 30px 0px;
+}
+.login-page_hade{
+    font-weight: 600;
+}
+
+.login-page_pad{
+    padding: 30px 60px;
+}
+.login-page_boxshadow{
+        box-shadow: 6px 4px 20px #d8d3d3;
+}
+
+
+
+
+
+/*----------------------------------------
+-------------login-page end------------------
+-----------------------------------------*/
+
+
+/*------------All Class End--------*/
+
+
+
+/*------------------------------------*
+$End Structure
+*------------------------------------*/
+
+
+
+
+
+
+
+@media (max-width: 1366px){
+     /*---------footer 1366-----------*/
+
+        .footer-up{
+            margin-top: -4px;
+        }
+    /*---------footer end 1366-----------*/
+
+}
+
+@media (max-width: 1024px){
+    /*---------footer 1024-----------*/
+
+        .footer-up{
+            margin-top: -2px;
+     }
+    /*---------footer end 1024-----------*/
+
+
+    /*------------------------------------
+    ---------------Login-page 1024----------
+    --------------------------------------*/
+    .login-page_dis {
+        display: inline-flex;
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    .login-page_dis-1{
+        font-size: 15px;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+
+  /*------------------------------------
+    ---------------Login-page end 1024----
+    --------------------------------------*/
+
+}
+
+@media (max-width: 768px){
+ 
+  /*---------navber 768--------*/
+  .navbar-frame {
+    position: relative;
+    /* overflow: hidden; */
+    width: 155px;
+    height: 15px;
+}
+ .navbar-768{
+    margin-top: 30px;
+ }
+ .btn-nar-login {
+    color: #fff;
+    background-color: #021a95;
+    border: 2px solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin-left: 0px;
+    font-weight: 600;
+}
+.nav-768-rep{
+    margin: 20px 0px 30px 0px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(2, 26, 149);
+    border: 2px solid;
+    padding-left: 10px;
+
+}
+.navbar-inverse.nav-upper {
+    height: 40px;
+}
+
+/*---------navber end 768------*/
+
+
+/*---------footer 768-----------*/
+.footer-img{
+    width: 150px;
+}
+
+/*--------footer end 768----------*/
+
+
+/*-----------------------------------
+-------------login-page 768-----------
+------------------------------------*/
+
+.login-page_card{
+    width: 118%;
+    margin-left: -51px;
+    margin-bottom: 10px;
+}
+
+
+/*-----------------------------------
+-------------login-page end 768-------
+------------------------------------*/
+
+
+
+
+
+
+
+
+}
+
+@media (max-width: 414px){
+
+    /*----------navber 414----------*/
+    .navbar-logo {
+        position: absolute;
+        top: 130%;
+        left: 0%;
+        z-index: 1051;
+        width: 80px;
+        height: auto;
+    }
+    .navbar-inverse.nav-upper {
+      height: auto;
+    }
+
+
+     /*----------navber 414----------*/
+
+     /*-----------------------------------
+    -------------login-page 768-----------
+    ------------------------------------*/
+
+    .login-page_card{
+        width: 138%;
+        margin-left: -50px;
+        margin-bottom: 10px;
+    }
+
+
+    /*-----------------------------------
+    -------------login-page end 768-------
+    ------------------------------------*/
+
+
+
+}
+
+@media (max-width: 375px){
+
+    /*-----------------------------------
+    -------------login-page 768-----------
+    ------------------------------------*/
+
+    .login-page_card{
+        width: 144%;
+        margin-left: -50px;
+        margin-bottom: 10px;
+    }
+
+
+    /*-----------------------------------
+    -------------login-page end 768-------
+    ------------------------------------*/
+
+    
+
+}
+
+
+@media (max-width: 320px){
+
+ /*-----------------------------------
+    -------------login-page 768-----------
+    ------------------------------------*/
+
+    .login-page_card{
+        width: 159%;
+        margin-left: -50px;
+        margin-bottom: 10px;
+    }
+
+
+    /*-----------------------------------
+    -------------login-page end 768-------
+    ------------------------------------*/
+
+
+}
