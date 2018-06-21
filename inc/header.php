@@ -27,6 +27,7 @@
     <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/flaticon/font/flaticon.css">
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
