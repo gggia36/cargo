@@ -4,14 +4,14 @@
 <div class="w-100" style="background-color:white;border-bottom: 6px solid #001a95;">
 <div class="container">
     <div class="navbar-frame ">
-       <a class="" href="index.php">
+       <a  href="index.php">
          <img class="navbar-logo" src="assets/images/Logo/Logo_SSquare-2.png">
        </a>    
     </div>
 
 
    <nav class="navbar-inverse nav-upper">
-      <button type="button" class="float-right btn-nar-login d-lg-table d-none">เข้าสู่ระบบ</button>
+      <a href="index.php"><button type="button" class="float-right btn-nar-login d-lg-table d-none">เข้าสู่ระบบ</button></a>
         <ul class="nav navbar-upper d-lg-table d-none  mt-xl-2">
           <li><i class="fas fa-envelope mr-2 nav-pad"></i>new_cargo@gmail.com
           </li>
@@ -30,7 +30,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto navbar-768">
           <li class="nav-item ">
-            <a class="nav-link active" href="about_us.php">เกี่ยวกับเรา</a>
+            <a class="nav-link active" href="about.php">เกี่ยวกับเรา</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="news.php">ข่าวสารและกิจกรรม</a>

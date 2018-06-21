@@ -16,16 +16,16 @@
 								<p>บริษัท กรุงเทพเทคนิค ลอจิก จำกัด 24/15 ม.2 ซ.ไซรน้อย จ.นนทบุรี 11150</p>
 							</div>
 							<div class="footer-mar">
-								<span><i class="fab fa-facebook-f footer-icon-3-google"></i></span>
-								<span><i class="fab fa-twitter footer-icon-3-google"></i></span>
-								<span><i class="fab fa-google footer-icon-3-google"></i></span>
+								<a href="#"><i class="fab fa-facebook-f footer-icon-3-google"></i></span></a><span>
+								<a href="#"><i class="fab fa-twitter footer-icon-3-google"></i></span></a><span>
+								<a href=""><i class="fab fa-google footer-icon-3-google"></i></span></a><span>
 							</div>	
 						</div>
 					</div>			
 				</div>
 				<div class="col-lg-3 text-center text-lg-left text-xl-left my-3">
 					<div>
-					    <p class="footer-text-2">เกี่ยวกับเรา</p>
+					   <p class="footer-text-2">เกี่ยวกับเรา</p>
 					</div>
 					<div>
 						<p class="footer-text-size">Lorem Ipsum คือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16 เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง Lorem Ipsum</p>
