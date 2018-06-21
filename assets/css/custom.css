@@ -66,6 +66,7 @@ body {
     background-color: #ffffff;
     box-shadow: 2px 2px 7px #d8d3d3;
     padding: 20px;
+    margin: 30px 0px;
     border-bottom: 1px solid #ccc;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
@@ -74,7 +75,24 @@ body {
 
 .nc-card-info{
     background-color: #f5f5f5;
-    padding: 20px;
+    padding: 15px 20px;
+}
+
+/*--------------- button link (a) ---------------*/
+.nc-btn{
+    color: #fff;
+    background-color: #021a95;
+    border: 2px solid;
+    padding: 6px 15px; 
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.nc-btn:hover{
+    color:  #021a95;
+    background-color: #fff;
+    border: 2px solid;
+    transition: 0.5s;
 }
 
 /*------------nav ber---------------*/
@@ -257,10 +275,6 @@ a:hover {
 
 .head-contact{
     font-weight: bold;
-}
-.head-history{
-    font-weight: bold;
-    color: #001a95;
 }
 
 
@@ -459,6 +473,67 @@ a:hover {
 ---------------news end--------------------
 -----------------------------------------*/
 
+
+/*----------------------------------------
+-------------history-page------------------
+-----------------------------------------*/
+.head-history{
+    font-weight: bold;
+    color: #001a95;
+}
+
+.stepwizard-step p {
+    margin-top: 10px;    
+}
+
+.process-row {
+    /*display: table-row;*/
+}
+
+.process {
+    display: table;     
+    width: 100%;
+    position: relative;
+    color: #cacaca;
+}
+
+.process-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+
+.process-step {    
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.process-step p {
+    margin-top:10px;
+    
+}
+
+.process-icon{
+    width: 160px;
+}
+
+.process-row .process-step.active{
+    color: #3fba2e;
+}
+
+.btn-circle {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+
+
+
 /*----------------------------------------
 ----------contact-page start--------------
 -----------------------------------------*/
@@ -495,7 +570,26 @@ a:hover {
 -----------------------------------------*/
 
 
+/*----------------------------------------
+----------history-page start--------------
+-----------------------------------------*/
+.tb-detail tr th{
+    padding: 5px 0px;
+    width: 160px;
+    vertical-align: top;
+}
+.tb-detail tr td{
+    padding: 5px 0px;
+}
 
+.no-wrap{
+    white-space: nowrap;
+}
+
+
+/*----------------------------------------
+----------history-page end----------------
+-----------------------------------------*/
 
 
 /*------------All Class End--------*/
@@ -691,7 +785,15 @@ $End Structure
 
 @media (max-width: 320px){
 
+/*-------- history page-------------*/
 
+    .tb-detail tr th{
+        padding: 5px 0px;
+        width: 120px;
+    }
+    .nc-card-info {
+        padding: 15px 15px;
+    }
 
 
 }
