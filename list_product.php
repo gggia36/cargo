@@ -23,7 +23,7 @@
       <div class="row">
         <div class="col-12 col-md-6">
           <div class="mt-2 text-md-left text-center">
-            <h5 class="head-history">รายการสินค้า</h5>
+            <h4 class="head-history">รายการสินค้า</h4>
           </div>
         </div>
         <div class="col-12 col-md-6">

@@ -69,7 +69,7 @@
 <div class="container my-5">
   <div class="row bg-white login-page_pad as_boxshadow">
     <div class="col-lg-12">
-      <h2 class="text-center login-page_hade mt-lg-4">ข่าวสารและกิจกรรม</h2>
+      <h4 class="text-center login-page_hade mt-lg-4">ข่าวสารและกิจกรรม</h4>
     </div>
       <div class="col-lg-12">
         <hr class="login-page-hr mb-4">

@@ -17,7 +17,7 @@
     <div class="container my-5">
       <div class="row bg-white news_pad as_boxshadow">
         <div class="col-lg-12">
-          <h4 class="text-center news_hade mt-lg-4">ข่าวสารและกิจกรรม</h4>
+          <h4 class="text-center text-weight-600 mt-lg-4">ข่าวสารและกิจกรรม</h4>
         </div>
         <div class="col-lg-12">
           <hr class="news-hr mb-4">
