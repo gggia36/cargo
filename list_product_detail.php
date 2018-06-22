@@ -52,24 +52,24 @@
                     <p>20/02/2561</p>
                     <p>08:45</p>
                 </div>
-                    <div class="process-step-nav active">
+                    <div class="process-step-nav">
                         <i class="nav-step fas fa-chevron-right"></i>
                     </div>
-                <div class="process-step active">
+                <div class="process-step">
                     <i class="flaticon-map fa-3x"></i>
                     <p>รับสินค้าเข้าโกดังไทย</p>
                 </div> 
-                    <div class="process-step-nav active">
+                    <div class="process-step-nav">
                         <i class="nav-step fas fa-chevron-right"></i>
                     </div>
-                 <div class="process-step active">
+                 <div class="process-step">
                     <i class="flaticon-shipped fa-3x"></i>
                     <p>จัดส่งสิ้นค้าภายในประเทศ</p>
                 </div> 
-                    <div class="process-step-nav active">
+                    <div class="process-step-nav">
                         <i class="nav-step fas fa-chevron-right"></i>
                     </div>
-                <div class="process-step active">
+                <div class="process-step">
                     <i class="flaticon-box fa-3x"></i>
                     <p>เสร็จสิ้น</p>
                 </div>
@@ -112,7 +112,7 @@
                   </tr>
                   <tr>
                     <th>สถานะ :</th>
-                    <td>เสร็จสิ้น</td>
+                    <td>ปิดตู้ สินค้าเดินทางมาไทย</td>
                   </tr>
                   <tr>
                     <th >วันที่รับสินค้า :</th>
@@ -224,7 +224,7 @@
         <b>หากมีปัญหาหรือข้อสงสัย กรุณาติดต่อ (คุณสมร) : 088-222-3333 หรือ LinrID : @New_cargo</b>
       </div>
       <div class="col-12 col-md-2 mt-4 mt-lg-0 text-lg-right text-center">
-        <a href="history.php" class="nc-btn">กลับ</a>
+        <a href="list_product.php" class="nc-btn">กลับ</a>
       </div>
     </div>
 
