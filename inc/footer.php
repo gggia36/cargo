@@ -15,10 +15,10 @@
 							<div>
 								<p>บริษัท กรุงเทพเทคนิค ลอจิก จำกัด 24/15 ม.2 ซ.ไซรน้อย จ.นนทบุรี 11150</p>
 							</div>
-							<div class="footer-mar">
-								<a href="#"><i class="fab fa-facebook-f footer-icon-3-google"></i></span></a><span>
-								<a href="#"><i class="fab fa-twitter footer-icon-3-google"></i></span></a><span>
-								<a href=""><i class="fab fa-google footer-icon-3-google"></i></span></a><span>
+							<div class="footer-mar ">
+								<a href="#"><i class="fab fa-facebook-f footer-icon-3-google hvr-bob"></i></span></a><span>
+								<a href="#"><i class="fab fa-twitter footer-icon-3-google hvr-bob"></i></span></a><span>
+								<a href=""><i class="fab fa-google footer-icon-3-google hvr-bob"></i></span></a><span>
 							</div>	
 						</div>
 					</div>			

@@ -11,13 +11,13 @@
 
 
    <nav class="navbar-inverse nav-upper">
-      <a href="index.php"><button type="button" class="float-right btn-nar-login d-lg-table d-none">เข้าสู่ระบบ</button></a>
+      <a href="index.php" class="float-right nc-btn d-lg-table d-none">เข้าสู่ระบบ</a>
         <ul class="nav navbar-upper d-lg-table d-none  mt-xl-2">
-          <li><i class="fas fa-envelope mr-2 nav-pad"></i>new_cargo@gmail.com
+          <li><i class="fas fa-envelope mr-1 nav-pad"></i>new_cargo@gmail.com
           </li>
-          <li><i class="fas fa-phone mr-2 nav-pad"></i>02-123-4567
+          <li><i class="fas fa-phone mr-1 nav-pad"></i>02-123-4567
           </li>
-          <li><i class="fab fa-line mr-2 nav-pad "></i>@New_cargo
+          <li><i class="fab fa-line mr-1 nav-pad "></i>@New_cargo
           </li>
         </ul>
     </nav> 
@@ -58,7 +58,7 @@
 
             <ul class="nav-btn-rep">
                 <li>
-                    <button type="button" class="float-left  btn-nar-login  d-lg-none d-inline-block">เข้าสู่ระบบ</button>
+                    <a href="index.php" class="float-left nc-btn d-lg-none d-inline-block">เข้าสู่ระบบ</a>
                 </li>
             </ul>
 

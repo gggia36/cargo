@@ -53,7 +53,7 @@
               </div> 
             </div>
             <div class="col-12 text-center">
-              <button type="button" class=" login-page-btn-nar-login">เข้าสู่ระบบ</button>
+              <a href="#" class="nc-btn">เข้าสู่ระบบ</a>
             </div>
           <div class="col-12 login-page_dis-1">
             <a class="login-page-color" href="#">ลืมรหัสผ่าน?</a>  
@@ -113,8 +113,8 @@
         </div>
       </div>
     </div>
-      <div class="col-12 text-center  mt-3  mb-lg-5">
-        <a href="news.php"><button type="button" class=" login-page-btn-nar-login ">ดูทั้งหมด</button></a>
+      <div class="col-12 text-center  mt-4 mb-lg-5">
+        <a href="news.php" class="nc-btn ">ดูทั้งหมด</a>
       </div>
   </div>
 </div>
