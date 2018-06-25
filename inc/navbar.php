@@ -2,7 +2,7 @@
 
 <!-- <a class="navbar-logo" href="#"></a> -->
 <div class="w-100" style="background-color:white;border-bottom: 6px solid #001a95;">
-<div class="container">
+<div class="container ">
     <div class="navbar-frame ">
        <a  href="index.php">
          <img class="navbar-logo" src="assets/images/Logo/Logo_SSquare-2.png">
@@ -11,7 +11,7 @@
 
 
    <nav class="navbar-inverse nav-upper">
-      <a href="index.php" class="float-right nc-btn d-lg-table d-none">เข้าสู่ระบบ</a>
+      <a href="index.php" class="float-right nc-btn d-lg-table d-none ml-2">เข้าสู่ระบบ</a>
         <ul class="nav navbar-upper d-lg-table d-none  mt-xl-2">
           <li><i class="fas fa-envelope mr-1 nav-pad"></i>new_cargo@gmail.com
           </li>
@@ -22,30 +22,33 @@
         </ul>
     </nav> 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white ">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto navbar-768">
+            <?php $link = $_SERVER['HTTP_HOST'] .$_SERVER['REQUEST_URI'];
+
+      ?>
           <li class="nav-item ">
-            <a class="nav-link active" href="about.php">เกี่ยวกับเรา</a>
+            <a class="nav-link  <?php if($link == 'localhost/cargo/about.php'){echo 'active';} ?> nav-border-right" href="about.php">เกี่ยวกับเรา</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="news.php">ข่าวสารและกิจกรรม</a>
+            <a class="nav-link <?php if($link == 'localhost/cargo/news.php'){echo 'active';} ?> nav-border-right" href="news.php">ข่าวสารและกิจกรรม</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="list_product.php">รายการสินค้า</a>
+            <a class="nav-link <?php if($link == 'localhost/cargo/list_product.php'){echo 'active';} ?> nav-border-right" href="list_product.php">รายการสินค้า</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="history.php">ประวัติการทำรายการ</a>
+            <a class="nav-link <?php if($link == 'localhost/cargo/history.php'){echo 'active';} ?> nav-border-right" href="history.php">ประวัติการทำรายการ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="profile.php">ข้อมูลส่วนตัว</a>
+            <a class="nav-link <?php if($link == 'localhost/cargo/profile.php'){echo 'active';} ?> nav-border-right" href="profile.php">ข้อมูลส่วนตัว</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.php">ติดต่อเรา</a>
+            <a class="nav-link <?php if($link == 'localhost/cargo/contact.php'){echo 'active';} ?> nav-border-right" href="contact.php">ติดต่อเรา</a>
           </li>
         </ul>
 

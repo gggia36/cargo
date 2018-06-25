@@ -239,6 +239,28 @@ body {
     height: 27px;
     padding: 4px 0px 0px 4px;
 }
+.footer-icon-3-tw{
+   background-color: #45494c;
+    color: #ffffff;
+    width: 27px;
+    font-size: 15px;
+    border: 2px solid;
+    height: 27px;
+    padding: 4px 0px 0px 4px;
+}
+
+.footer-icon-3-facebook{
+   background-color: #45494c;
+    color: #ffffff;
+    width: 27px;
+    font-size: 15px;
+    border: 2px solid;
+    height: 27px;
+    padding: 4px 0px 0px 7px;
+}
+.footer-icon-3-facebook:hover{
+    background-color: #202773;
+}
 
 .footer-mar{
     margin-top: 30px;
@@ -324,7 +346,8 @@ a:hover {
 }
 
 .form-control{
-    border-radius: 0px !important;s
+    border-radius: 0px !important;
+    font-size: 15px;
 }
 
 .login-page_dis{
@@ -678,8 +701,8 @@ a:hover {
     padding-top: calc(.375rem + 1px);
     padding-bottom: calc(.375rem + 1px);
     margin-bottom: 0;
-    font-size: 14px;
     line-height: 1.5;
+    font-size: 15px;
 }
 .profile_fix_frame{
     position: relative;
