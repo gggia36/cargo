@@ -49,7 +49,7 @@
           </div>
             <div class="col-12">
               <div class="login-page_dis">
-                <p>หากยังไม่มีบัญชีผู้ใช้ คลิก </p><a class="login-page_link" href="#">ลงทะเบียน</a>
+                <p>หากยังไม่มีบัญชีผู้ใช้ คลิก </p><a class="login-page_link nc-btn-tran" href="#">ลงทะเบียน</a>
               </div> 
             </div>
             <div class="col-12 text-center">

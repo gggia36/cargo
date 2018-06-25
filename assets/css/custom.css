@@ -109,6 +109,9 @@ body {
     border: 2px solid;
     transition: 0.5s;
 }
+.nc-btn-tran{
+    transition: all .5s ease-in-out;
+}
 
 /*------------nav ber---------------*/
 .navbar-light .navbar-nav .nav-link {
@@ -239,6 +242,10 @@ body {
     height: 27px;
     padding: 4px 0px 0px 4px;
 }
+
+.footer-icon-3-google:hover{
+    background-color: #c14d4d;   
+}
 .footer-icon-3-tw{
    background-color: #45494c;
     color: #ffffff;
@@ -247,6 +254,9 @@ body {
     border: 2px solid;
     height: 27px;
     padding: 4px 0px 0px 4px;
+}
+.footer-icon-3-tw:hover{
+    background-color: #1088c1;
 }
 
 .footer-icon-3-facebook{
@@ -259,7 +269,7 @@ body {
     padding: 4px 0px 0px 7px;
 }
 .footer-icon-3-facebook:hover{
-    background-color: #202773;
+    background-color: #39408e;
 }
 
 .footer-mar{
