@@ -18,7 +18,7 @@
 
 <!-- ------ start help_center ------------- -->
 
-<div class="container my-5">
+<div class="container my-5 ">
   <div class="row nc-thumbnail">
     <div class="col-12 text-center">
       <div class="mb-4">

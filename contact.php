@@ -18,7 +18,7 @@
 
 <!-- ------ start contact ------------- -->
 
-<div class="container my-5">
+<div class="container my-5 ">
   <div class="row nc-thumbnail">
     <div class="col-lg-6 col-12  d-flex align-items-center">
       <div>

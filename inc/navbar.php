@@ -11,7 +11,7 @@
 
 
 
-   <nav class="navbar-inverse nav-upper">
+   <nav class="navbar-inverse nav-upper ">
       <a href="index.php" class="float-right nc-btn d-lg-table d-none ml-2">เข้าสู่ระบบ</a>
         <ul class="nav navbar-upper d-lg-table d-none  mt-xl-2">
           <li><i class="fas fa-envelope mr-1 nav-pad"></i>new_cargo@gmail.com
@@ -70,6 +70,9 @@
 
       </div>
     </nav>
+    
+
+
 </div> 
 </div>
 

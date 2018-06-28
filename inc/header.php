@@ -9,7 +9,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- ICON -->
-    <link rel="icon" type="image/png" href="assets/images/Logo/Logo_SSquare-2.png" sizes="16x16" href="" >
+    <link rel="icon" type="image/png" href="assets/images/Logo/logo1.png" sizes="16x16" href="" >
     <link rel="apple-touch-icon" sizes="76x76" href="">
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> -->
 
@@ -28,6 +28,8 @@
 
     <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="assets/vendor/flaticon/font/flaticon.css">
+    <!-- --ain -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
@@ -36,4 +38,5 @@
     <link href="https://fonts.googleapis.com/css?family=Kanit:200,300,500,700" rel="stylesheet">
     <!-- -hover-- -->
     <link rel="stylesheet" type="text/css" href="assets/vendor/Hover/css/hover.css">
+    
 

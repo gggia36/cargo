@@ -13,7 +13,7 @@
 <div class="wrapper">
    <!-- CONTENT -->
 
-   <div class="container my-5">
+   <div class="container my-5 ">
     <div class="row bg-white as_boxshadow register_padding">
       <div class="col-lg-12 ">
           <h4 class="my-lg-5 text-center">ลงทะเบียน</h4>

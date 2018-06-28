@@ -19,11 +19,11 @@
 
 <!-- ------login------------- -->
 
-<div class="container my-5"> 
-  <div class="row bg-white as_boxshadow">
+<div class="container my-5 animated slideInUp"> 
+  <div class="row bg-white as_boxshadow ">
     <div class="col-lg-8 ">
-      <div class="login-page_frame">
-        <img class=" w-100" src="assets/images/Banner/banner-01.jpg" >
+      <div class="login-page_frame ">
+        <img class=" w-100 " src="assets/images/Banner/banner-01.jpg" >
       </div>
     </div>
       <div class="col-lg-4 login-page_h1-login" >
@@ -31,7 +31,7 @@
           <div class="col-12 login-page_font">
             <h2 class="text-center login-page_hade">เข้าสู่ระบบ</h2>
           </div>
-          <div class="col-12">
+          <div class="col-lg-12">
             <div class="input-group mb-lg-4 mb-3 mr-sm-2">
               <div class="input-group-prepend">
                 <div class="input-group-text bg-blue"><i class="fas fa-envelope text-white"></i></div>
@@ -39,7 +39,7 @@
               <input type="text" class="form-control " id="email" placeholder="exaple@gmail.com">
             </div>
           </div>
-          <div class="col-12">
+          <div class="col-lg-12">
             <div class="input-group mb-lg-4  mb-3 mr-sm-2">
               <div class="input-group-prepend">
                 <div class="input-group-text bg-blue"><i class="fas fa-lock text-white"></i></div>
@@ -66,7 +66,7 @@
 
 <!-- -------crad----------------- -->
 
-<div class="container my-5">
+<div class="container my-5 animated slideInUp">
   <div class="row bg-white login-page_pad as_boxshadow">
     <div class="col-lg-12">
       <h4 class="text-center login-page_hade mt-lg-4">ข่าวสารและกิจกรรม</h4>

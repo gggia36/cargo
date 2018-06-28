@@ -6,7 +6,7 @@
 					<div class="row ">
 						<div class="col-lg-4 col-md-12 my-3 text-md-center px-0">
 							<div class="text-center">
-							 <a class="" href="#">
+							 <a  href="index.php">
 						       <img class="footer-img"  src="assets/images/Logo/Logo_SSquare_white.png">
 						     </a> 
 						    </div>

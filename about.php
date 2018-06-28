@@ -13,7 +13,7 @@
       <div class="wrapper">
          <!-- START CONTENT -->
         <div class="container my-5">
-          <div class="row bg-white about_pad as_boxshadow">
+          <div class="row bg-white about_pad as_boxshadow ">
             <div class="col-lg-12 ">
               <div class="text-center">
                 <h4 class="text-weight-600 mt-4">เกี่ยวกับเรา</h4>          
@@ -32,9 +32,14 @@
           <div>
             <h4 >ขั้นตอนการให้บริการ</h4>
           </div>
-          <div>
-            <img src="assets/images/Banner/step.png" Terre" width="100%" height="auto"> 
-          </div>
+      
+
+
+
+
+            <div>
+              <img src="assets/images/Banner/step.png" Terre" width="100%" height="auto"> 
+            </div>
               
 
           </div>

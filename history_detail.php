@@ -37,7 +37,7 @@
             <div class="process-row">
                 <div class="process-step active">
                   <div class="process-icon">
-                      <i class="flaticon-china fa-3x"></i>
+                      <i class="flaticon-china fa-3x hvr-pulse"></i>
                       <p>รับสินค้าเข้าโกดังจีน</p>
                       <p>12/02/2561</p>
                       <p>12:30</p>
@@ -47,7 +47,7 @@
                         <i class="nav-step fas fa-chevron-right"></i>
                     </div>
                 <div class="process-step active">
-                    <i class="flaticon-worldwide fa-3x"></i>
+                    <i class="flaticon-worldwide fa-3x hvr-pulse"></i>
                     <p>ปิดตู้ สินค้าเดินทางมาไทย</p>
                     <p>20/02/2561</p>
                     <p>08:45</p>
@@ -56,21 +56,21 @@
                         <i class="nav-step fas fa-chevron-right"></i>
                     </div>
                 <div class="process-step active">
-                    <i class="flaticon-map fa-3x"></i>
+                    <i class="flaticon-map fa-3x hvr-pulse"></i>
                     <p>รับสินค้าเข้าโกดังไทย</p>
                 </div> 
                     <div class="process-step-nav active">
                         <i class="nav-step fas fa-chevron-right"></i>
                     </div>
                  <div class="process-step active">
-                    <i class="flaticon-shipped fa-3x"></i>
+                    <i class="flaticon-shipped fa-3x hvr-pulse"></i>
                     <p>จัดส่งสิ้นค้าภายในประเทศ</p>
                 </div> 
                     <div class="process-step-nav active">
                         <i class="nav-step fas fa-chevron-right"></i>
                     </div>
                 <div class="process-step active">
-                    <i class="flaticon-box fa-3x"></i>
+                    <i class="flaticon-box fa-3x hvr-pulse"></i>
                     <p>เสร็จสิ้น</p>
                 </div>
             </div>

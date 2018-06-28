@@ -18,7 +18,7 @@
 
 <!-- ------ start help_center ------------- -->
 
-<div class="container my-5 px-0">
+<div class="container my-5 px-0 ">
   <div class="nc-thumbnail">
       <div class="row">
         <div class="col-12 col-md-6">
