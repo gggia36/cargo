@@ -18,6 +18,9 @@
               <div class="text-center">
                 <h4 class="text-weight-600 mt-4">เกี่ยวกับเรา</h4>          
               </div>
+              <div class="col-lg-12">
+                <hr class="news-hr">
+              </div>
                 <div class="about_frame about_pad_frame">
                   <img class="about_img" src="assets/images/Banner/286H.jpg">
                 </div>

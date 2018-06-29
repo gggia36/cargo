@@ -34,22 +34,22 @@
 
       ?>
           <li class="nav-item ">
-            <a class="nav-link  <?php if($link == 'localhost/cargo/about.php'){echo 'active';} ?> nav-border-right" href="about.php">เกี่ยวกับเรา</a>
+            <a class="nav-link  oop  <?php if($link == 'localhost/cargo/about.php'){echo 'active';} ?> nav-border-right" href="about.php">เกี่ยวกับเรา</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?php if($link == 'localhost/cargo/news.php'){echo 'active';} ?> nav-border-right" href="news.php">ข่าวสารและกิจกรรม</a>
+            <a class="nav-link oop <?php if($link == 'localhost/cargo/news.php'){echo 'active';} ?> nav-border-right" href="news.php">ข่าวสารและกิจกรรม</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?php if($link == 'localhost/cargo/list_product.php'){echo 'active';} ?> nav-border-right" href="list_product.php">รายการสินค้า</a>
+            <a class="nav-link oop <?php if($link == 'localhost/cargo/list_product.php'){echo 'active';} ?> nav-border-right" href="list_product.php">รายการสินค้า</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?php if($link == 'localhost/cargo/history.php'){echo 'active';} ?> nav-border-right" href="history.php">ประวัติการทำรายการ</a>
+            <a class="nav-link oop <?php if($link == 'localhost/cargo/history.php'){echo 'active';} ?> nav-border-right" href="history.php">ประวัติการทำรายการ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?php if($link == 'localhost/cargo/profile.php'){echo 'active';} ?> nav-border-right" href="profile.php">ข้อมูลส่วนตัว</a>
+            <a class="nav-link oop <?php if($link == 'localhost/cargo/profile.php'){echo 'active';} ?> nav-border-right" href="profile.php">ข้อมูลส่วนตัว</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?php if($link == 'localhost/cargo/contact.php'){echo 'active';} ?> nav-border-right" href="contact.php">ติดต่อเรา</a>
+            <a class="nav-link oop <?php if($link == 'localhost/cargo/contact.php'){echo 'active';} ?> nav-border-right" href="contact.php">ติดต่อเรา</a>
           </li>
         </ul>
 

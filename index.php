@@ -44,7 +44,7 @@
               <div class="input-group-prepend">
                 <div class="input-group-text bg-blue"><i class="fas fa-lock text-white"></i></div>
               </div>
-              <input type="text" class="form-control" id="password" placeholder="Paswordpress">
+              <input type="password" class="form-control" id="password" placeholder="Paswordpress">
             </div>
           </div>
             <div class="col-12">
@@ -74,45 +74,45 @@
       <div class="col-lg-12">
         <hr class="login-page-hr mb-4">
       </div>
-    <div class="col-lg-4 col-md-6 col-12">
-      <div class="login-page_card login-page_mar_10 hvr-float-shadow">
-        <div class="login-page_frame-crad ">
-          <a href="news_details.php"><img class="login-page_card-img-top" src="http://clipart.coolclips.com/480/vectors/tf05136/CoolClips_vc001401.png" alt="Card image cap"></a>
-        </div>
-        <div class="card-body">
-          <a href="news_details.php"><h5  class="login-page_fix_text">เมื่อ EMS มาส่งแล้วไม่มีผู้รับ</h5></a>
-          <div class="logia-page_fix_text">
-            <p >มีหลักฐานที่เป็นข้อเท็จจริงยืนยันมานานแล้ว ว่าเนื้อหาที่อ่านรู้เรื่องนั้นจะไปกวนสมาธิของคนอ่านให้เขวไปจากส่วนที้เป็น Layout เรานำ Lorem Ipsum มาใช้เพราะความที่มันมีการกระจายของตัวอักษรธรรมดาๆ</p>
-          </div>  
-        </div>
-      </div>
-    </div>
-     <div class="col-lg-4 col-md-6 col-12">
-      <div class="login-page_card login-page_mar_10 hvr-float-shadow">
-        <div class="login-page_frame-crad  ">
-          <a href="news_details.php"><img class="login-page_card-img-top" src="http://lebanesenow.com/wp-content/uploads/2018/01/moto-delivery.png" alt="Card image cap"></a>
-        </div>
-        <div class="card-body">
-          <a href="news_details.php"><h5 class="login-page_fix_text">บริการนำเข้าสินค้าจีน</h5></a>
-          <div class="logia-page_fix_text">
-            <p >มีหลักฐานที่เป็นข้อเท็จจริงยืนยันมานานแล้ว ว่าเนื้อหาที่อ่านรู้เรื่องนั้นจะไปกวนสมาธิของคนอ่านให้เขวไปจากส่วนที้เป็น Layout เรานำ Lorem Ipsum มาใช้เพราะความที่มันมีการกระจายของตัวอักษรธรรมดาๆ</p>
-          </div>    
-        </div>
-      </div>
-    </div>
-     <div class="col-lg-4 col-md-6 col-12">
-      <div class="login-page_card login-page_mar_10 hvr-float-shadow">
-        <div class="login-page_frame-crad ">
-          <a href="news_details.php"><img class="login-page_card-img-top" src="https://png.pngtree.com/element_origin_min_pic/17/01/04/302b4e0c5d955b0d4d2d156504387bda.jpg" alt="Card image cap"></a>
-        </div>
-        <div class="card-body">
-          <a href="news_details.php"><h5 class="login-page_fix_text">ทช. หนุนดลจิสติกส์ท่าเรือเชียงแสง รับการค้าไทยขนมจัน</h5></a>
-          <div class="logia-page_fix_text">
-            <p >มีหลักฐานที่เป็นข้อเท็จจริงยืนยันมานานแล้ว ว่าเนื้อหาที่อ่านรู้เรื่องนั้นจะไปกวนสมาธิของคนอ่านให้เขวไปจากส่วนที้เป็น Layout เรานำ Lorem Ipsum มาใช้เพราะความที่มันมีการกระจายของตัวอักษรธรรมดาๆ</p>
+      <div class="col-lg-4 col-md-6 col-12">
+          <div class="news_card news_mar_10 hvr-float-shadow">
+            <div class="news_frame-crad">
+              <a href="news_details.php"><img class="news_card-img-top" src="http://108kaset.com/farm/wp-content/uploads/2018/06/Kerry1.jpg" alt="Card image cap"></a>
+            </div>
+            <div class="card-body">
+              <a href="news_details.php"><h5  class="news_fix_text">เมื่อ EMS มาส่งแล้วไม่มีผู้รับ</h5></a>
+              <div class="news_fix_text_3">
+                <p class="card-text ">มีหลักฐานที่เป็นข้อเท็จจริงยืนยันมานานแล้ว ว่าเนื้อหาที่อ่านรู้เรื่องนั้นจะไปกวนสมาธิของคนอ่านให้เขวไปจากส่วนที้เป็น Layout เรานำ Lorem Ipsum มาใช้เพราะความที่มันมีการกระจายของตัวอักษรธรรมดาๆ</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="news_card news_mar_10 hvr-float-shadow">
+            <div class="news_frame-crad">
+              <a href="news_details.php"><img class="news_card-img-top" src="http://www.takraonline.com/Images/Blog/6163468-2.jpg" alt="Card image cap"></a>
+            </div>
+            <div class="card-body">
+              <a href="news_details.php"><h5  class="news_fix_text">เมื่อ EMS มาส่งแล้วไม่มีผู้รับ</h5></a>
+              <div class="news_fix_text_3">
+                <p class="card-text ">มีหลักฐานที่เป็นข้อเท็จจริงยืนยันมานานแล้ว ว่าเนื้อหาที่อ่านรู้เรื่องนั้นจะไปกวนสมาธิของคนอ่านให้เขวไปจากส่วนที้เป็น Layout เรานำ Lorem Ipsum มาใช้เพราะความที่มันมีการกระจายของตัวอักษรธรรมดาๆ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="news_card news_mar_10 hvr-float-shadow">
+            <div class="news_frame-crad ">
+              <a href="news_details.php"><img class="news_card-img-top " src="http://media.thansettakij.com/2016/05/appmp24-3158-a.jpg" alt="Card image cap"></a>
+            </div>
+            <div class="card-body">
+              <a href="news_details.php"><h5  class="news_fix_text">เมื่อ EMS มาส่งแล้วไม่มีผู้รับ</h5></a>
+              <div class="news_fix_text_3">
+                <p class="card-text ">มีหลักฐานที่เป็นข้อเท็จจริงยืนยันมานานแล้ว ว่าเนื้อหาที่อ่านรู้เรื่องนั้นจะไปกวนสมาธิของคนอ่านให้เขวไปจากส่วนที้เป็น Layout เรานำ Lorem Ipsum มาใช้เพราะความที่มันมีการกระจายของตัวอักษรธรรมดาๆ</p>
+              </div>
+            </div>
+          </div>
+        </div>
       <div class="col-12 text-center  mt-4 mb-lg-5">
         <a href="news.php" class="nc-btn ">ดูทั้งหมด</a>
       </div>
@@ -144,3 +144,48 @@
 
   </body>
 </html>
+<script>
+
+window.onload = function(){ 
+  // กรอบรูป
+
+ // รูป
+
+    // .news_card-img-top {
+    //   position:absolute;
+    //   top:50%;
+    //   left:50%;
+    //   transform: translate(-50%, -50%);
+    // }
+
+    // .news_fix_text{
+    //     position: relative;
+    //     overflow: hidden;
+    //     width: 100%;
+    //     height: 48px;
+    //     color: #021a95;
+    //     font-weight: 600;
+    // }
+
+
+       $( '.news_card-img-top' ).each( function () { 
+           var iw = $(this).width(); 
+           var ih = $(this).height(); 
+           if(iw > ih){ 
+             $(this).css({'width':'auto'}); 
+             $(this).css({'height':100+'%'}); 
+           } 
+           else if(ih > iw){ 
+             $(this).css({'width':100+'%'}); 
+             $(this).css({'height':'auto'}); 
+           } 
+           else if(ih == iw){ 
+             $(this).css({'width':100+'%'}); 
+             $(this).css({'height':'auto'}); 
+           } 
+        }); 
+ 
+} 
+ 
+</script>
+

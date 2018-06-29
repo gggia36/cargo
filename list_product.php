@@ -29,7 +29,7 @@
         <div class="col-12 col-md-6">
           <form class="form-inline">
             <div class="form-group input-group ml-auto">
-              <label for="inputPassword6">Search </label>
+              <label for="inputPassword6" class="list_product_pad">Search </label>
               <input type="text" class="form-control ml-3" id="password" placeholder="Search">
               <button class="btn bg-blue my-sm-0" type="submit" style="border-radius: 0rem;"><i class="fas fa-search text-white"></i></button>
             </div>

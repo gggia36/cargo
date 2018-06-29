@@ -15,16 +15,8 @@
 
     <!-- Bootstrap CSS -->
 <!--     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" /> -->
+    
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-
-
-    <!--[if IE]>
-      <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
-      <script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
-    <![endif]-->
-    <!--[if lt IE 9]>
-    <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css" rel="stylesheet">
-    <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="assets/vendor/flaticon/font/flaticon.css">
@@ -37,6 +29,6 @@
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Kanit:200,300,500,700" rel="stylesheet">
     <!-- -hover-- -->
-    <link rel="stylesheet" type="text/css" href="assets/vendor/Hover/css/hover.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/Animatehover/css/hover.css">
     
 

@@ -65,7 +65,7 @@ body {
 .nc-card-item{
     background-color: #ffffff;
     box-shadow: 2px 2px 7px #d8d3d3;
-    padding: 20px;
+    padding: 8px;
     margin: 30px 0px;
     border-bottom: 1px solid #ccc;
     border-left: 1px solid #ccc;
@@ -182,6 +182,15 @@ body {
     border-width: 2px;
     margin-left: auto;
 }
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.90rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    margin-top: -16px;
+}
 .nav-pad{
     padding-right: 10px;
     padding-left: 20px
@@ -190,6 +199,51 @@ body {
     list-style: none;
     padding-left: 0px;
 }
+.oop{
+  font-size:18px;
+  text-decoration: none;
+  color: #021a95;
+  font-weight: bolder;
+  position: relative;
+}
+
+/* Start Here */
+.oop:after{
+  content: '';
+  position: absolute;
+  width: 0%;
+  left: 0;
+  right: 0;
+  background-color: #021a95;
+  height: 3px;
+  transition: .3s;
+  margin: auto;
+  margin-top: -10px;
+}
+
+.oop:hover:after{
+  width: 100%;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(2, 26, 149);
+}
+
+
+
+
+.navbar-light .navbar-nav .nav-link.active{
+        color: rgb(255, 155, 8);
+
+}
+
+
+/*.navbar-light .navbar-nav .nav-link:after, .navbar-light .navbar-nav .nav-link:hover {
+    border-top: 2px solid #021a95;
+    color: #021a95;
+    transition: all 0.2s ease-out;
+    padding-top: 6px;
+
+}*/
 /*-----------nav ber end-------------*/
 
 
@@ -232,7 +286,7 @@ body {
 }
 
 .footer-text-size a:hover {
-    color: #007bff;
+    color: #9E9E9E;
     font-weight: 600;
     text-decoration: none;
 }
@@ -341,15 +395,7 @@ a:hover {
 /*----------------------------------------
 -------------login-page------------------
 -----------------------------------------*/
-.navbar-light .navbar-nav .nav-link.active{
-    border-top: 2px solid #021a95;
-    color: #021a95;
-}
 
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    border-top: 2px solid #021a95;
-    color: #021a95;
-}
 .login-page_h1-login{
     background-color: #dce6ef;
 
@@ -377,7 +423,7 @@ a:hover {
 }
 .login-page_link{
     margin-left: 15px;
-    color: #ef5a24;
+    color: rgb(255, 155, 8);
 }
 
 
@@ -404,7 +450,7 @@ a:hover {
 }
 .login-page-hr{
     border-color: #001a95;
-    border-width: 6px;
+    border-width: 4px;
     width: 160px;
 }
 .login-page-bg{
@@ -414,28 +460,6 @@ a:hover {
     padding: 70px 70px 130px 70px;
 }
 
-.login-page_frame-crad{
-     position: relative;
-     overflow: hidden;
-     width: 100%;
-     height: 250px;
-}
-.login-page_card {
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: 0px;
-}
-.login-page_card-img-top {
-    width: 100%;
-    padding: 20px 20px 3px 20px;
-}
 .login-page_fix_text{
     position: relative;
     overflow: hidden;
@@ -471,6 +495,7 @@ a:hover {
 /*----------------------------------------
 ---------------news-----------------------
 -----------------------------------------*/
+
 .news_card {
     display: flex;
     -webkit-box-orient: vertical;
@@ -483,11 +508,20 @@ a:hover {
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 0px;
 }
-.news_card-img-top {
-    width: 100%;
-    padding: 20px 20px 3px 20px;
+.news_frame-crad{
+    position:relative;
+    overflow: hidden;
+    width:100%;
     height: 250px;
+
 }
+.news_card-img-top {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
 .news_fix_text{
     position: relative;
     overflow: hidden;
@@ -499,7 +533,7 @@ a:hover {
 
 .news-hr{
     border-color: #001a95;
-    border-width: 6px;
+    border-width: 4px;
     width: 160px;
 }
 .news_pad{
@@ -507,6 +541,7 @@ a:hover {
 }
 .news_mar_10{
     margin-bottom: 20px;
+    padding: 16px 16px 0px 16px;
 }
 .news_page-link {
     position: relative;
@@ -680,7 +715,7 @@ a:hover {
     height: auto; 
 }
 .about_pad_frame{
-     padding: 50px 200px 50px 200px;
+     padding: 20px 200px 30px 200px;
 }
 .about_img {
     width: 100%;
@@ -770,6 +805,9 @@ a:hover {
     visibility: visible; 
     opacity: 1; 
 }
+.profile_font600{
+    font-weight: 600;
+}
 
 
 /*-----------------------------------------
@@ -833,10 +871,7 @@ $End Structure
     .login-page_pad {
         padding: 20px 0px 20px 0px;
     }
-    .login-page_mar_10{
-        margin-bottom: 20px;
-    }
-    
+   
   /*------------------------------------
     ---------------Login-page end 1024----
     --------------------------------------*/
@@ -855,7 +890,7 @@ $End Structure
     -----------------about 1024-------------
     --------------------------------------*/
     .about_pad {
-        padding: 20px 0px 20px 0px;
+         padding: 20px 15px 20px 15px;
     }
      /*--------------------------------------
     -----------------about end 1024---------
@@ -925,6 +960,14 @@ $End Structure
 .navbar-inverse.nav-upper {
     height: 40px;
 }
+.oop:after {
+    display: none;
+    }
+.oop:hover:after {
+    display: none; 
+}
+
+
 
 /*---------navber end 768------*/
 
@@ -990,11 +1033,20 @@ $End Structure
         height: auto;
     }
     .navbar-inverse.nav-upper {
-      height: auto;
+        height: auto;
+    }
+    .navbar-toggler {
+        padding: .25rem .75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        margin-top: 0px;
     }
 
 
-     /*----------navber 414----------*/
+     /*----------navber 414 end----------*/
 
     /*----------------------------------------
     ----------contact-page 414----------------
@@ -1029,6 +1081,19 @@ $End Structure
     }
     /*----------------------------------------
     -------------------about 414 end-----------
+    ------------------------------------------*/
+
+    /*----------------------------------------
+    -------------------list_product.php 414---
+    ------------------------------------------*/
+    .list_product_pad{
+         padding-top: 6px;
+
+    }
+
+
+    /*----------------------------------------
+    ----------list_product.php 414 end --------
     ------------------------------------------*/
 
 }
