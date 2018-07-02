@@ -29,6 +29,6 @@
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Kanit:200,300,500,700" rel="stylesheet">
     <!-- -hover-- -->
-    <link rel="stylesheet" type="text/css" href="assets/vendor/Animatehover/css/hover.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/animhover/css/hover.css">
     
 
